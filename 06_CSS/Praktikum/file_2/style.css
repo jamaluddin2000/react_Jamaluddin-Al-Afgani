@@ -1,0 +1,83 @@
+.header{
+    background-color: white;
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+}
+
+/* bagian list  */
+body{
+    background-image: url("sample-pattern.png");
+}
+ul{
+    float: right;
+    /* padding-bottom: 100px; */
+    margin-top: 40px;
+}
+ul>li{
+    display: inline;
+    list-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: center;
+}
+
+/* style buat a */
+a:hover{
+    background-color: aliceblue;
+    padding: 30px;
+}
+
+a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+
+/* isi */
+.konten{
+    display: inline-block;
+    padding: 30px;
+    margin-left: 20%;
+    margin-right:20%;
+    margin-top: 5px;
+
+}
+
+.konten,h3{
+    background-color: aliceblue;
+}
+
+/* footer */
+.footer{
+    background-color: white;
+    margin-top: 5%;
+
+}
+.footer>p{
+    text-align: center;
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 30%;
+
+
+}
+
+.footer_gambar{
+    width: 10%;
+    padding-top: 30px;
+
+}
+
+
+
+
+
+
+
+
