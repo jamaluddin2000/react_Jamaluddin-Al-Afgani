@@ -1,0 +1,93 @@
+/* navbar */
+a:hover{
+    background-color: grey;
+    color: black !important;
+}
+
+.btn{
+    border-bottom: 0;
+}
+.navbar-nav{
+    color: black !important;
+}
+
+.dropdown-nav:hover{
+    background-color: grey;
+    
+}
+.dropdown-menu>li>a{
+    color:grey  !important;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.dropdown-menu>li>a:hover{
+    color: black !important;
+}
+.dropdown-menu>li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* isi section */
+.isi{
+    margin-top: 100px;
+}
+.img-cloud{
+    width: 30%;
+    height: 30%;
+}
+
+section>h5{
+    font-size: 15px !important;
+}
+
+section>p{
+    font-size: 15px;
+}
+
+section{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 80px;
+}
+
+.section>.img-phone{
+    height: 10px;
+
+}
+
+.img-phone{
+    height: calc(90vh);
+}
+
+.decs-phone{
+    margin-left: 10px;
+    margin-top: 200px;
+}
+
+
+.decs-phone>ul{
+    list-style-type: none;
+    color: grey;
+    margin-top: 30px;
+    padding-left: 0%;
+}
+
+.decs-phone>ul>li{
+    margin-top: 10px;
+    color: gray;
+
+}
+
+/* footer */
+footer{
+    background-color: rgb(10, 8, 8);
+    color: whitesmoke;
+}
+
+.footer>ul>li>a{
+    color: white;
+    text-decoration: none;
+    text-align: start;
+}
