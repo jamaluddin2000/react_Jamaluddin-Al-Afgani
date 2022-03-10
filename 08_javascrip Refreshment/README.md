@@ -1,3 +1,5 @@
+### sudah upload dari tanggal 9 cuman ada yang di ubah 
+
 ###JAVASCRIP
 
 1. javascrip adalah sebuah bahasa pemograman di level tingkat tinggi yang dapat di gunakan oleh programer untuk pengembangan web, bahasa ini dapat di gunakan di banyak web browser 
