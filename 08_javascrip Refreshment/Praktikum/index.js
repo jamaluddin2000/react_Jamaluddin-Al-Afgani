@@ -55,13 +55,12 @@ console.log(c);
 
 
 let bdays = ['10-17','05-19','20-19'];
-bdays = ['10/17', '05/19', '20/19'];
-
-console.log("Jawaban Nomor 4");
-console.log(bdays);
-
-let value = [1,2,3,4,5,6];
-let mapvalue = value.map(x => x * 2);
+console.log(bdays)
+console.log("diubah menjadi")
+for(let i=0; i < bdays.length; i++) {
+    bdays[i] = bdays[i].replace(/-/g, '/');
+}
+console.log(bdays)
 
 console.log("Jawaban Nomor 5");
 console.log(mapvalue)
