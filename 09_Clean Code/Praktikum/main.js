@@ -11,25 +11,25 @@
 // Problem 2 - rewrite
 
 class kendaraan {
-    var totalRoda = 0;
+    var roda = 0;
     var kecepatanPerjam = 0;
 }
 
 class mobil extends kendaraan {
     void berjalan() {
-        tambahKecepatan(10);
+        pertambahanKecepatan(10);
     }
 // kecepatan mobil akan bertambah 10 jika mobil menambah kecepatan
-    tambahKecepatan(var kecepatanBaru) {
+    pertambahanKecepatan(var kecepatanBaru) {
         kecepatanPerjam = kecepatanPerjam + kecepatanBaru;
     }
 }
 
 void main() {
-    mobilCepat = new mobil();
-    mobilCepat.berjalan();
-    mobilCepat.berjalan();
-    mobilCepat.berjalan();
+    mobilMelaju = new mobil();
+    mobilMelaju.berjalan();
+    mobilMelaju.berjalan();
+    mobilMelaju.berjalan();
 
     mobilLamban = new mobil();
     mobilLamban.berjalan();
