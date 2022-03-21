@@ -1,4 +1,4 @@
-export const mockList = [
+export const mockData = [ 
     {
       id: 1,
       title: "Membuat Komponen",
@@ -17,6 +17,7 @@ export const mockList = [
     {
       id: 4,
       title: "Deploy ke server",
-      completed: true,
+      completed: false,
     },
-  ];
+  ]
+  

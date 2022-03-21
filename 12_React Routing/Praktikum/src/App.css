@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+
+}
+
+nav{
+  
+  display: flex;
+  justify-content: space-around;
+  color: rgb(0, 58, 0);
+  align-items: center;
+  background-color: rgb(107, 207, 107);
+
+
+}
+.nav-link{
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  align-items: center;
+}
+
+li{
+  color: rgb(0, 58, 0);
+  text-decoration: none;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+
+}
+
+.list-about{
+  background-color: aqua;
+  color: aqua;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 30px;
+}
+
