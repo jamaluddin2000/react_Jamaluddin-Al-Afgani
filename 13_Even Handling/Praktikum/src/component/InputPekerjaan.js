@@ -36,11 +36,8 @@ class InputPekerjaan extends Component{
         return(
             <div 
             className="InputText" >
-                <h1>Daftar Pekerjaan </h1>
-                <input type="text" placeholder="Tambah Pekerjaan..." value={this.state.title} name="title" onChange={this.oneChange}/>
-                <button onClick={this.handleSubmit}>masukkan</button>
-
-
+                <input className="input" type="text" placeholder="Tambah Pekerjaan..." value={this.state.title} name="title" onChange={this.oneChange}/>
+                <button onClick={this.handleSubmit}>ADD</button>
             </div>
 
 

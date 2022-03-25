@@ -1,32 +1,17 @@
 import './style.css'
 
 
-const ListItem = ({item, hapusPekerjaan}) => {
+const ListItem = ({onChange, item, hapusPekerjaan}) => {
 
-    
-    handleCoret = () => {
-        this.setState({
-            completed: false
-        })
-    }
-
-
-    const viewMode = {};
-    const editMode = {};
-    
-        if (this.setState.item.completed){
-            viewMode.textdecoration = "line-through";
-        } else {
-            editMode.textdecoration = "line-through";
-        }    
-
+ 
     return (
+        <>
         <tr className='IsiPekerjaan'> 
-            <td><input type="checkbox" /></td>
-            <td>{item.title}</td>
-            <td><button onClick={() => {hapusPekerjaan(item.id)}}>Hapus</button></td>
+            <td className='ceckbox'><input type="checkbox" checked={item.completed} onChange={() => onChange(item.id)}/></td>
+            <td style={{textDecoration: item.completed ? "line-through" : "none"}}>{item.title}</td>
+            <td><button onClick={() => {hapusPekerjaan(item.id)}}>DELET</button></td>
         </tr>
-        
+        </>
 
     )
 }
