@@ -1,0 +1,41 @@
+h1{
+
+margin-left: 27%;
+width: 57%;
+background-color: cornflowerblue;
+margin-bottom: 1px;
+text-align: center;
+}
+
+form{
+  padding:30px;
+  margin-left: 28%;
+  width: 50%;
+  border-style:groove    ;
+  font-weight: bold;
+}
+
+.inputan{
+  width: 98%;
+  padding:5px;
+}
+
+.tombol{
+  text-align: center;
+  padding: 40px;
+}
+
+button{
+  margin-left: 50px;
+  width: 40%;
+}
+
+.sumbit{
+  margin-left: 50px;
+  width: 40%;
+}
+
+.error{
+  font-size: 10px;
+  color: red;
+}
