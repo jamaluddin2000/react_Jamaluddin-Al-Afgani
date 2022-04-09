@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 
 const Home = () => {
   const DataKosong = {
@@ -56,6 +56,10 @@ const Home = () => {
     setData(DataKosong)
     alert("Reset data")
   }
+
+  useEffect (()=> {
+    console.log(data)
+  } ,[data]);
   // const handleReset = (event) => {
 
   //   setData(DataKosong);
@@ -102,6 +106,7 @@ const Home = () => {
                 maxLength={13}
                 type="text"
                 name="NoHandphone"
+                defaultValue={12312}
                 className="inputan"
                 required
                 onChange={handleInput}
@@ -119,6 +124,7 @@ const Home = () => {
             <span>
               <input
                 type="radio"
+                value={"IT"}
                 name="Pendidikan"
                 onChange={handleInput}
                 required
@@ -128,6 +134,7 @@ const Home = () => {
             <span>
               <input
                 type="radio"
+                value={"NonIT"}
                 name="Pendidikan"
                 onChange={handleInput}
                 required
@@ -140,14 +147,19 @@ const Home = () => {
 
         <label for="nasionality">Kelas :</label>
         <br />
-        <select id="Nationality" required>
-          <option name="kelas" onChange={handleInput}>
+        <select 
+        name="kelas" 
+        id="Nationality" 
+        required
+        defaultValue={"koding-3"} 
+        onChange={handleInput}>
+          <option  value={"koding-1"}>
             Coding Backend with Golang
           </option>
-          <option name="kelas" onChange={handleInput}>
+          <option value={"koding-2"}>
             Coding Frontend with ReactJS
           </option>
-          <option name="kelas" onChange={handleInput}>
+          <option  value={"koding-3"}>
             Fullstack Developer
           </option>
         </select>
@@ -177,7 +189,7 @@ const Home = () => {
 
         <div className="tombol">
         <input className="sumbit" type="submit" value="Submit" required></input>
-        <button type="reset" onClick={handle} >Reset</button>
+        <button type="reset"  onClick={handle} >Reset</button>
         </div>
       </form>
     </>
