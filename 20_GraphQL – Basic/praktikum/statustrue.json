@@ -1,0 +1,50 @@
+{
+    "data": {
+      "keterangan_aggregate": {
+        "nodes": [
+          {
+            "id": 1,
+            "id_anggota": 1,
+            "pelajaran": "Sistem informasi",
+            "Nilai": 85,
+            "Status": true
+          },
+          {
+            "id": 3,
+            "id_anggota": 2,
+            "pelajaran": "Sistem Informasi",
+            "Nilai": 90,
+            "Status": true
+          },
+          {
+            "id": 5,
+            "id_anggota": 3,
+            "pelajaran": "Sistem informasi",
+            "Nilai": 90,
+            "Status": true
+          },
+          {
+            "id": 2,
+            "id_anggota": 1,
+            "pelajaran": "React",
+            "Nilai": 65,
+            "Status": true
+          },
+          {
+            "id": 6,
+            "id_anggota": 3,
+            "pelajaran": "React",
+            "Nilai": 55,
+            "Status": true
+          },
+          {
+            "id": 4,
+            "id_anggota": 2,
+            "pelajaran": "React",
+            "Nilai": 50,
+            "Status": true
+          }
+        ]
+      }
+    }
+  }

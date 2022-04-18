@@ -1,0 +1,11 @@
+{
+    "data": {
+      "insert_keterangan_one": {
+        "id": 6,
+        "id_anggota": 3,
+        "pelajaran": "React",
+        "Nilai": 55,
+        "Status": false
+      }
+    }
+  }

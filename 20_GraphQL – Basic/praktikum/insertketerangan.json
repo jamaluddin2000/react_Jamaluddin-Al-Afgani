@@ -1,0 +1,12 @@
+{
+    "data": {
+      "insert_keterangan_one": {
+        "id": 5,
+        "id_anggota": 3,
+        "pelajaran": "Sistem informasi",
+        "Nilai": 90,
+        "Status": true
+      }
+    }
+  }
+
