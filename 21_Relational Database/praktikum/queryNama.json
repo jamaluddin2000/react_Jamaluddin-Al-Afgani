@@ -1,0 +1,21 @@
+{
+    "data": {
+      "keterangan": [
+        {
+          "Anggotum": {
+            "nama": "jamal"
+          }
+        },
+        {
+          "Anggotum": {
+            "nama": "aldi"
+          }
+        },
+        {
+          "Anggotum": {
+            "nama": "duta"
+          }
+        }
+      ]
+    }
+  }

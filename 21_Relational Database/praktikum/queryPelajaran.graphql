@@ -1,0 +1,7 @@
+query MyQuery {
+  keterangan {
+    Anggotum{
+      nama
+    }
+  }
+}

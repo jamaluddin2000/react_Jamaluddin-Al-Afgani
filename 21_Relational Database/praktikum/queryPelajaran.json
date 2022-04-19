@@ -1,0 +1,42 @@
+{
+    "data": {
+      "Anggota": [
+        {
+          "id": 1,
+          "nama": "jamal",
+          "keterangans": [
+            {
+              "Nilai": 85,
+              "pelajaran": {
+                "pelajaran": "sistem informasi"
+              }
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "nama": "duta",
+          "keterangans": [
+            {
+              "Nilai": 90,
+              "pelajaran": {
+                "pelajaran": "react"
+              }
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "nama": "aldi",
+          "keterangans": [
+            {
+              "Nilai": 90,
+              "pelajaran": {
+                "pelajaran": "sistem informasi"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
